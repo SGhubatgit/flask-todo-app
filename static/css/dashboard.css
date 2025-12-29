@@ -1,0 +1,56 @@
+/* Dashboard page specific */
+
+/* Input and Add button */
+form.d-flex input {
+    flex: 1;
+    border: 1px solid #d9c4a9;
+    border-radius: 8px;
+    background-color: #fef7ef;
+    color: #3b2f2f;
+    padding: 8px;
+}
+form.d-flex input:focus {
+    border-color: #a67c52;
+    box-shadow: 0 0 5px #d9c4a9;
+}
+form.d-flex button {
+    border-radius: 8px;
+}
+
+/* Task list items */
+ul.list-group li {
+    font-size: 1.1rem;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: #fdf5ec;
+    border: 1px solid #d9c4a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Completed task */
+ul.list-group li s {
+    color: #a67c52;
+}
+
+/* Buttons inside task items */
+ul.list-group li .btn-success {
+    background-color: #a67c52;
+    border: none;
+}
+ul.list-group li .btn-success:hover {
+    background-color: #8b5e3c;
+}
+ul.list-group li .btn-danger {
+    background-color: #5c3a21;
+    border: none;
+}
+ul.list-group li .btn-danger:hover {
+    background-color: #3b2f2f;
+}
+
+/* Center container */
+.container.mt-4 {
+    margin-top: 40px !important;
+}

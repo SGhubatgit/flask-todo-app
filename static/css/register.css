@@ -1,0 +1,27 @@
+/* Register page specific (similar to login) */
+input.form-control {
+    border: 1px solid #d9c4a9;
+    border-radius: 8px;
+    background-color: #fef7ef;
+    color: #3b2f2f;
+}
+input.form-control:focus {
+    border-color: #a67c52;
+    box-shadow: 0 0 5px #d9c4a9;
+}
+input::placeholder {
+    color: #a67c52;
+}
+
+.btn-primary {
+    background-color: #8b5e3c;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #a67c52;
+}
+
+/* Center card */
+.row.justify-content-center {
+    margin-top: 80px;
+}
